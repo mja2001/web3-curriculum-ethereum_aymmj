@@ -1,0 +1,2 @@
+npm install --save-dev @nomicfoundation/hardhat-toolbox hardhat
+npm install @openzeppelin/contracts ethers@6

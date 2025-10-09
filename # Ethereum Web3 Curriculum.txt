@@ -1,0 +1,36 @@
+# Ethereum Web3 Curriculum
+
+This is the rebuilt Ethereum-focused track of freeCodeCamp's Web3 Curriculum, funded by Nathan Flickinger's $1M donation for carbon-neutral learning. Learn by building 12+ projects: from Solidity basics to DeFi dApps on L2s.
+
+## Prerequisites
+- freeCodeCamp: Responsive Web Design, JavaScript Algorithms, Front-End Libraries, Back-End APIs.
+
+## Setup
+1. `git clone https://github.com/mja2001/web3-curriculum-ethereum`
+2. `cd web3-curriculum-ethereum && npm install`
+3. Get testnet ETH from Sepolia faucet.
+4. Copy `.env.example` to `.env` and add keys.
+
+## Structure
+- **curriculum/**: Modules with JSON challenges (interactive) and MD explanations.
+- **examples/**: Extractable Hardhat projects for portfolios.
+- **docs/**: Guides and glossary.
+
+## Modules Overview
+| Module | Time | Focus |
+|--------|------|-------|
+| 01: Ethereum Basics | 15h | Blocks, EVM, Gas |
+| 02: Solidity Fundamentals | 20h | Syntax, Functions |
+| 03: Smart Contracts | 25h | ERC Standards |
+| 04: Testing & Deployment | 20h | Hardhat, Sepolia |
+| 05: Frontend Integration | 25h | Ethers.js, React |
+| 06: Security Practices | 20h | Reentrancy, Audits |
+| 07: Advanced Ethereum | 30h | L2, Oracles |
+| 08: Capstones | 45h | Full dApps |
+
+## Contribution
+Fork, add challenges, PR. Use Solidity 0.8.31+ and OpenZeppelin.
+
+Thanks to Nathan Flickinger for making this possible. [Read his story](https://www.freecodecamp.org/news/donating-a-million-dollars-to-freecodecamp-a-web3-curriculum).
+
+Last Updated: October 09, 2025

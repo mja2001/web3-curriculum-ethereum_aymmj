@@ -1,0 +1,18 @@
+# Simulate a Blockchain Ledger
+
+**Solution**:
+```js
+class Block {
+  constructor(index, timestamp, data, prevHash) {
+    this.index = index;
+    this.timestamp = timestamp;
+    this.data = data;
+    this.prevHash = prevHash;
+    this.hash = this.calculateHash();
+  }
+  calculateHash() {
+    return require('crypto').createHash('sha256').update(this.index + this.timestamp + this.data + this.prevHash).digest('hex');
+  }
+}
+
+// Usage: See tests

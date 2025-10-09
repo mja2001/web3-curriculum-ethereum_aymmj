@@ -1,0 +1,17 @@
+{
+  "title": "Simulate a Blockchain Ledger",
+  "description": "Write JS to create a simple block and chain.",
+  "instructions": "Define a Block class with index, timestamp, data, prevHash. Then chain 3 blocks.",
+  "tests": [
+    {
+      "testString": "const genesis = new Block(0, Date.now(), 'Genesis', '0'); expect(genesis.index).toBe(0);",
+      "testName": "Block creation"
+    },
+    {
+      "testString": "const chain = [genesis]; const block1 = new Block(1, Date.now(), 'Tx1', genesis.hash); chain.push(block1); expect(chain.length).toBe(2);",
+      "testName": "Add to chain"
+    }
+  ],
+  "challengeFiles": ["blockchain.js"],
+  "language": "javascript"
+}

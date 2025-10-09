@@ -1,0 +1,9 @@
+# Module 01: Ethereum Basics
+
+Learn blockchain fundamentals, EVM, and gas. 4 challenges, 15 hours.
+
+**Objectives**:
+- Understand blocks and ledgers.
+- Simulate gas costs.
+
+**Prereqs**: JS basics.

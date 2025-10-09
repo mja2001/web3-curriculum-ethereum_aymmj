@@ -1,0 +1,1 @@
+mkdir -p docs curriculum/01-ethereum-basics examples/erc20-template/{contracts,scripts,test} testnet-configs .github/workflows

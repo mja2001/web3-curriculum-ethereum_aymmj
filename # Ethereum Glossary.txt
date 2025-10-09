@@ -1,0 +1,9 @@
+# Ethereum Glossary
+
+- **EVM**: Ethereum Virtual Machine – executes smart contracts.
+- **Gas**: Computational units; optimize to reduce costs.
+- **EOA**: Externally Owned Account – user wallets.
+- **L2**: Layer 2 scaling (e.g., Optimism) for cheaper txs.
+- **Reentrancy**: Attack vector; use checks-effects-interactions pattern.
+
+More: [Solidity Docs](https://docs.soliditylang.org/en/latest/).

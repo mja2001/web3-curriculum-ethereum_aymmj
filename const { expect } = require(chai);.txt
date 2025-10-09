@@ -1,0 +1,11 @@
+const { expect } = require("chai");
+const { ethers } = require("hardhat");
+
+describe("MyToken", function () {
+  it("Should mint initial supply", async function () {
+    const MyToken = await ethers.getContractFactory("MyToken");
+    const token = await MyToken.deploy();
+    await token.waitForDeployment();
+    expect(await token.totalSupply()).to.equal(1000000n * 10n ** 18n);
+  });
+});

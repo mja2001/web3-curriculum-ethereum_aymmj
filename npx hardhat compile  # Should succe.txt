@@ -1,0 +1,2 @@
+npx hardhat compile  # Should succeed (no errors)
+npm test  # Runs ERC20 tests—should pass
